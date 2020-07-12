@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+@font-face{
+	font-family: 'Monserrat Light';
+	src: url(../../fonts/Montserrat-Light.ttf);
+}
+
+div{
+	width: 876px;
+}
+
+div a img{
+	height: 411px;
+}
+
+.menu{
+	margin-top: 1px;
+	background: #fff;
+}
+
+.menu ul{
+	display: flex;
+	width: 876px;
+}
+
+.menu ul li{
+	cursor: pointer;
+	background: #fff;
+	padding-top: 23px;
+	padding-left: 33px;
+	padding-bottom: 16px;
+	padding-right: 33px;
+	transition: all .3s ease;
+}
+
+.menu ul li:hover{
+	border-bottom: 2px solid #86b817;
+	transition: all .3s ease;
+}
+
+#active{
+	border-bottom: 2px solid #86b817;
+}
+
+.menu ul li a{
+	font-family: 'Monserrat Light';
+	font-size: 14px;
+	color: #4b4b4b;
+}
